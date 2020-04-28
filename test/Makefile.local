@@ -1,0 +1,5 @@
+TestBlake.v TestSHA256.v TestRIPEMD160.v TestKeccak.v: gen_tests/gen_tests
+	gen_tests/gen_tests
+
+gen_tests/gen_tests: $(wildcard gen_tests/*.go)
+	(cd gen_tests && go build)

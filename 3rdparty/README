@@ -1,0 +1,8 @@
+blake2b:
+    A verbatim copy of github.com/ethereum/go-ethereum/crypto/blake2b,
+    which is derived from golang.org/x/crypto/blake2b.
+
+    Only necessary for testing. 
+
+    The license is either LGPL (suggested by go-ethereum's README)
+    or a simple BSD-style license (suggested by the headers).

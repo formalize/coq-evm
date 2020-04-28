@@ -1,0 +1,6 @@
+-R .. EVM
+
+TestBlake.v
+TestKeccak.v
+TestRIPEMD160.v
+TestSHA256.v
